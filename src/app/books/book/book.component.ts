@@ -3,8 +3,8 @@ import {ActivatedRoute} from '@angular/router';
 import {Book} from '../model/book';
 import {BooksService} from '../service/books.service';
 import {Subscription} from "rxjs";
-import { AuthornamesPipe } from '../../pipes/authornames.pipe';
-import { NgIf } from '@angular/common';
+import {AuthornamesPipe} from '../../pipes/authornames.pipe';
+import {NgIf} from '@angular/common';
 
 @Component({
     selector: 'app-book',

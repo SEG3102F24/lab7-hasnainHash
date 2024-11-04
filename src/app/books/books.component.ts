@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { ActivatedRoute, Router, Routes, RouterOutlet } from '@angular/router';
+import {Component} from '@angular/core';
+import {ActivatedRoute, Router, RouterOutlet, Routes} from '@angular/router';
 import {BookComponent} from './book/book.component';
 
 export const booksRoutes: Routes = [
